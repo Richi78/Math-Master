@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Login.uss?fileID=7433441132597879392&amp;guid=9e120fe737280cd41a695c9b4151f8db&amp;type=3#Login" />
+    <ui:VisualElement name="Panel" class="Panel" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" class="ButtonContainer" style="flex-grow: 1;">
+            <ui:Button text="Google" name="google" display-tooltip-when-elided="true" triple-click-selects-line="true" double-click-selects-word="true" focusable="true" class="unity-button" style="margin-bottom: 20%; background-color: rgb(255, 255, 255); text-overflow: clip; height: 7%; background-image: url(&quot;project://database/Assets/imagenes/logoGoogle.png?fileID=2800000&amp;guid=f9bc3b0f428cd6048b4014acb4bd4258&amp;type=3#logoGoogle&quot;); background-position-x: left 15%; background-position-y: center 0; background-size: 20% 90%;" />
+            <ui:Button text="Invitado" name="invitado" class="unity-button" style="background-color: rgb(100, 54, 149); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

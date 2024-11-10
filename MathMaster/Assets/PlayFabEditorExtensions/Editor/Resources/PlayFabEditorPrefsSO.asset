@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
+  m_Name: PlayFabEditorPrefsSO
+  m_EditorClassIdentifier: 
+  DevAccountEmail: mathmaster2024movil@gmail.com
+  DevAccountToken: 6gy9m4z3yb5b39o989gipcpan8mztqmyr5agi41dyt5zbwtnybcmj1oj9ycm3pxtmwfyscdohit83hmgg5rqjrjcaqu1dbwma95dp9j1xnzo693wqmugjd7r8kab5j1k13n8uddfboorad4in63teyq9mwrh51kjsbbhsg6c1zrtp71zwwh8ciptkrx65qh8bhoksq79
+  AadAuthorization: 
+  SelectedStudio: MathMaster
+  SdkPath: Assets/PlayFabSDK
+  EdExPath: 
+  LocalCloudScriptPath: 
+  PanelIsShown: 0
+  curMainMenuIdx: 1
+  curSubMenuIdx: 0

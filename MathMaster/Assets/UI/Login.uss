@@ -1,0 +1,43 @@
+.Panel {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.ButtonContainer {
+    bottom: auto;
+    flex-direction: column-reverse;
+    flex-shrink: 1;
+    align-items: center;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.unity-text-element {
+}
+
+.unity-button--with-icon {
+}
+
+.unity-button:hover {
+    background-color: rgb(253, 249, 249);
+    background-position-x: center 0;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    scale: 1.1 1.1;
+}
+
+.unity-button {
+    height: 7%;
+    width: 80%;
+    padding-right: 35%;
+    padding-left: 35%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+}
