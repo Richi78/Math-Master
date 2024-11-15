@@ -42,23 +42,23 @@ public class GuestLoginManager : MonoBehaviourPunCallbacks // Heredamos de MonoB
     private const string PREFS_PLAYFAB_ID = "PlayFabID";
     private const string PROFILE_IMAGE_KEY = "ProfileImageURL";
 
-    void Start(){
-        botonInvitado.onClick.AddListener(IniciarSesionComoInvitado);  // Asigna accion al boton
+    //void Start(){
+    //    botonInvitado.onClick.AddListener(IniciarSesionComoInvitado);  // Asigna accion al boton
 
-        if (PlayerPrefs.HasKey(PREFS_PLAYFAB_ID))
-        {
-            playFabId = PlayerPrefs.GetString(PREFS_PLAYFAB_ID);
-        }
-        botonEditarNombre.onClick.AddListener(HabilitarEdicionNombre);//de entrada le digo que ya tiene una funcion pero creo q no funciona
-        botonEditarImagen.onClick.AddListener(EditarImagen);
+    //    if (PlayerPrefs.HasKey(PREFS_PLAYFAB_ID))
+    //    {
+    //        playFabId = PlayerPrefs.GetString(PREFS_PLAYFAB_ID);
+    //    }
+    //    botonEditarNombre.onClick.AddListener(HabilitarEdicionNombre);//de entrada le digo que ya tiene una funcion pero creo q no funciona
+    //    botonEditarImagen.onClick.AddListener(EditarImagen);
 
-        botonCrearSala.onClick.AddListener(CrearSala);
-        // Conectate al Master Server si aun no estas conectado
-        if (!PhotonNetwork.IsConnected){
-            PhotonNetwork.ConnectUsingSettings();
-        }
-        ActualizarConteoJugadores();
-    }
+    //    botonCrearSala.onClick.AddListener(CrearSala);
+    //    // Conectate al Master Server si aun no estas conectado
+    //    if (!PhotonNetwork.IsConnected){
+    //        PhotonNetwork.ConnectUsingSettings();
+    //    }
+    //    ActualizarConteoJugadores();
+    //}
 
     void IniciarSesionComoInvitado(){
         var request = new LoginWithCustomIDRequest

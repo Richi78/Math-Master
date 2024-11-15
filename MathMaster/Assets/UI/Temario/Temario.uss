@@ -1,0 +1,39 @@
+.Themes {
+    height: 90%;
+    align-self: center;
+}
+
+.Arrow {
+    height: 10%;
+    justify-content: center;
+    flex-direction: row-reverse;
+    overflow: visible;
+}
+
+.label {
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-items: auto;
+    -unity-font-style: bold;
+    font-size: 15px;
+    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&guid=2ddc77beaf42f1a45a9b12bab907abd4&type=3#arrow-left@2x");
+}
+
+.button {
+    -unity-background-image-tint-color: rgb(44, 44, 44);
+    background-color: rgb(83, 128, 208);
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    justify-content: flex-end;
+    align-items: stretch;
+    position: absolute;
+    align-self: center;
+    transition-property: scale;
+    transition-duration: 0.25s;
+}
+
+.button:hover {
+    scale: 1.35 1.3;
+}

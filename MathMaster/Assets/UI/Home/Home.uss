@@ -1,0 +1,30 @@
+VisualElement {
+}
+
+.Panel {
+    background-image: url("project://database/Assets/imagenes/wallpaper.png?fileID=2800000&guid=457fa24b3d3786840838a28295d194e1&type=3#wallpaper");
+}
+
+.Container {
+    justify-content: center;
+}
+
+.Button {
+    width: 70%;
+    align-items: stretch;
+    align-self: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: space-between;
+    -unity-background-image-tint-color: rgb(56, 56, 56);
+    background-color: rgb(128, 146, 221);
+    transition-property: scale;
+    transition-duration: 0.25s;
+}
+
+.Button:hover {
+    scale: 1.05 1.05;
+    -unity-background-image-tint-color: rgb(55, 55, 55);
+}

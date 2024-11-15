@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Home/Home.uss?fileID=7433441132597879392&amp;guid=8c3ddf562f2c86541ad6377424ad3d29&amp;type=3#Home" />
+    <engine:VisualElement name="Panel" class="Panel" style="flex-grow: 1;">
+        <engine:VisualElement name="Container" class="Container" style="flex-grow: 1;">
+            <engine:Button text="Crear Sala" name="crearSala" class="Button" />
+            <engine:Button text="Salas Creadas" name="SalasCreadas" class="Button" />
+            <engine:Button text="Sala por ID" name="SalaID" class="Button" />
+            <engine:Button text="Ver temario" name="temario" class="Button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

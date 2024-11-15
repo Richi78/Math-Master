@@ -1,6 +1,7 @@
 .Panel {
     background-color: rgb(255, 255, 255);
     align-items: center;
+    background-image: url("project://database/Assets/imagenes/wallpaper.png?fileID=2800000&guid=457fa24b3d3786840838a28295d194e1&type=3#wallpaper");
 }
 
 .ButtonContainer {
@@ -25,7 +26,7 @@
     background-color: rgb(253, 249, 249);
     background-position-x: center 0;
     -unity-background-image-tint-color: rgb(255, 255, 255);
-    scale: 1.1 1.1;
+    scale: 1.05 1.05;
 }
 
 .unity-button {
