@@ -1,6 +1,7 @@
 .Themes {
     height: 90%;
     align-self: center;
+    width: 80%;
 }
 
 .Arrow {
@@ -18,7 +19,7 @@
     align-items: auto;
     -unity-font-style: bold;
     font-size: 15px;
-    background-image: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&guid=2ddc77beaf42f1a45a9b12bab907abd4&type=3#arrow-left@2x");
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&guid=2ddc77beaf42f1a45a9b12bab907abd4&type=3#arrow-left@2x');
 }
 
 .button {
@@ -36,4 +37,25 @@
 
 .button:hover {
     scale: 1.35 1.3;
+}
+
+.label-temas {
+    color: rgb(255, 255, 255);
+    background-color: rgb(144, 10, 114);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    -unity-text-align: upper-center;
+    white-space: normal;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    overflow: visible;
+    width: 100%;
 }

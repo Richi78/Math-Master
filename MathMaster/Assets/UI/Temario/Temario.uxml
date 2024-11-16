@@ -3,7 +3,7 @@
     <engine:VisualElement name="Panel" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/imagenes/wallpaper.png?fileID=2800000&amp;guid=457fa24b3d3786840838a28295d194e1&amp;type=3#wallpaper&quot;);">
         <engine:VisualElement name="BackArrow" class="Arrow" style="flex-grow: 1; height: 81px; flex-direction: row-reverse;">
             <engine:Label text="Temario" selectable="false" class="label" style="background-image: none;" />
-            <engine:Button class="button" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); position: absolute; left: 5%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&amp;guid=2ddc77beaf42f1a45a9b12bab907abd4&amp;type=3#arrow-left@2x&quot;); background-color: rgba(83, 128, 208, 0); -unity-background-image-tint-color: rgb(255, 255, 255);" />
+            <engine:Button name="backButton" class="button" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); position: absolute; left: 5%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-2236324273849735119&amp;guid=2ddc77beaf42f1a45a9b12bab907abd4&amp;type=3#arrow-left@2x&quot;); background-color: rgba(83, 128, 208, 0); -unity-background-image-tint-color: rgb(255, 255, 255);" />
         </engine:VisualElement>
         <engine:VisualElement name="Temas" class="Themes" style="flex-grow: 1;" />
     </engine:VisualElement>

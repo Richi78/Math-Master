@@ -9,6 +9,8 @@ public class TemarioController : MonoBehaviour
 {
     public VisualElement ui;
     private UIController uIController;
+    public Button backButton;
+    public VisualElement container;
     private string playFabId;
     public List<string> temas;
 
@@ -16,6 +18,13 @@ public class TemarioController : MonoBehaviour
     private void OnEnable()
     {
         ui = GetComponent<UIDocument>().rootVisualElement;
+        uIController = FindAnyObjectByType<UIController>();
+
+        backButton = ui.Q<Button>("backButton");
+        backButton.RegisterCallback<ClickEvent>(handleBackButton);
+
+        container = ui.Q<VisualElement>("Temas");
+
         playFabId = PlayerPrefs.GetString("PlayFabID");
         ObtenerTemasDesdePlayFab();
     }
@@ -35,12 +44,13 @@ public class TemarioController : MonoBehaviour
             string json = result.Data["TemasTrivia"];
 
             TemaList temaList = JsonConvert.DeserializeObject<TemaList>(json);
-            Debug.Log(temaList.temas);
             foreach(var tema in temaList.temas)
             {
                 Debug.Log(tema.nombre);
+                var label = new Label(tema.nombre);
+                label.AddToClassList("label-temas");
+                container.Add(label);
             }
-
         }
         else
         {
@@ -51,6 +61,11 @@ public class TemarioController : MonoBehaviour
     void OnTitleDataError(PlayFabError error)
     {
         Debug.LogError("Error al obtener los temas: " + error.GenerateErrorReport());
+    }
+
+    public void handleBackButton(ClickEvent evt)
+    {
+        uIController.EnableHome();   
     }
 }
 
